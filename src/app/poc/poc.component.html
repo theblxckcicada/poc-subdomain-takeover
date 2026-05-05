@@ -1,0 +1,34 @@
+<main class="poc-page">
+  <section class="poc-card">
+    <p class="eyebrow">Authorized Security Research PoC</p>
+
+    <h1>Subdomain Takeover Proof</h1>
+
+    <p class="summary">
+      This page is served from a researcher-controlled origin only to demonstrate
+      control of a misconfigured subdomain during an authorized security test.
+    </p>
+
+    <div class="details">
+      <div>
+        <span>Target Hostname</span>
+        <strong>{{ target || 'Provided in report' }}</strong>
+      </div>
+
+      <div>
+        <span>Researcher</span>
+        <strong>{{ researcher || 'theblxckcicada' }}</strong>
+      </div>
+
+      <div>
+        <span>Reference</span>
+        <strong>{{ reference || 'PoC evidence' }}</strong>
+      </div>
+    </div>
+
+    <p class="note">
+      No user data was accessed, no phishing content is hosted, and no attempt was
+      made to mimic the affected organization.
+    </p>
+  </section>
+</main>

@@ -1,0 +1,23 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "headers": {
+        "Cache-Control": "no-store, no-cache, must-revalidate, proxy-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0",
+        "X-Content-Type-Options": "nosniff",
+        "X-Frame-Options": "DENY",
+        "Referrer-Policy": "no-referrer",
+        "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "X-Robots-Tag": "noindex, nofollow, noarchive"
+      }
+    }
+  ],
+  "navigationFallback": {
+    "rewrite": "/index.html"
+  },
+  "mimeTypes": {
+    ".json": "application/json"
+  }
+}
