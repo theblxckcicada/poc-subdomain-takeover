@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/ovawatch-poc-origin",
+            "outputPath": "dist/poc-subdomain-takeover",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
