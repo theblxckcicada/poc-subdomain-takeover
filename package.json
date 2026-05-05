@@ -1,5 +1,5 @@
 {
-  "name": "ovawatch-poc-origin",
+  "name": "poc-subdomain-takeover",
   "version": "1.0.0",
   "description": "Generic, safe Angular origin page for authorized subdomain takeover proof-of-concept reports.",
   "author": "Ovawatch / theblxckcicada",
@@ -9,7 +9,7 @@
     "start": "ng serve --host 0.0.0.0 --port 4200",
     "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
-    "serve:dist": "npx http-server dist/ovawatch-poc-origin/browser -p 8080 -c-1"
+    "serve:dist": "npx http-server dist/poc-subdomain-takeover/browser -p 8080 -c-1"
   },
   "dependencies": {
     "@angular/common": "^20.0.0",

@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ovawatch-poc-origin": {
+    "poc-subdomain-takeover": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -16,7 +16,9 @@
             "outputPath": "dist/poc-subdomain-takeover",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": ["zone.js"],
+            "polyfills": [
+              "zone.js"
+            ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
@@ -25,7 +27,9 @@
                 "output": "assets"
               }
             ],
-            "styles": ["src/styles.css"]
+            "styles": [
+              "src/styles.css"
+            ]
           },
           "configurations": {
             "production": {
@@ -55,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "ovawatch-poc-origin:build:production"
+              "buildTarget": "poc-subdomain-takeover:build:production"
             },
             "development": {
-              "buildTarget": "ovawatch-poc-origin:build:development"
+              "buildTarget": "poc-subdomain-takeover:build:development"
             }
           },
           "defaultConfiguration": "development"
